@@ -43,7 +43,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(urlPatterns = {"/HelloWorld","/index.html"})
 public class HelloWorldServlet extends HttpServlet {
 
-    static String PAGE_HEADER = "<html><head><title>helloworld</title></head><body>";
+    static String PAGE_HEADER = "<html><head><title>Hello Open Shift!!!!</title></head><body>";
 
     static String PAGE_FOOTER = "</body></html>";
 
