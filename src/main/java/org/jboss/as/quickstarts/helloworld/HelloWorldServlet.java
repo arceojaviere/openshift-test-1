@@ -54,7 +54,7 @@ public class HelloWorldServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         PrintWriter writer = resp.getWriter();
-        writer.println(PAGE_HEADER);
+        gwriter.println(PAGE_HEADER);
         writer.println("<h1>" + helloService.createHelloMessage("Openshift!!!!!") + "</h1>");
         writer.println(PAGE_FOOTER);
         writer.close();
